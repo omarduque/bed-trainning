@@ -8,7 +8,7 @@ We start by exploring a model in a traditional MySQL database and from there we 
  * Requisites: Docker.
  * All commands must by executed within the `nosql` folder of this repo.
  * Create a local image to work with the local examples by running: `docker build -t nosql-ws docker`.
- * Create an alias to simplify the execution of some commands ahead: `alias nosql-run="docker run --link nosql-mysql --link cassandra-2 --link nosql-neo4j --rm -v $(pwd):/app nosql-ws python`.
+ * Create an alias to simplify the execution of some commands ahead: `alias nosql-run="docker run --link nosql-mysql --link cassandra-2 --link nosql-neo4j --rm -v $(pwd):/app nosql-ws python"`.
 
 ## Creating the MySQL database
 
